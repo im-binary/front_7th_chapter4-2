@@ -48,3 +48,5 @@ export const TIMES = [
     .map((v, k) => v + k * 55 * 분)
     .map((v) => `${parseHnM(v)}~${parseHnM(v + 50 * 분)}`),
 ] as const;
+
+export const SCHEDULE_COLORS = ["#fdd", "#ffd", "#dff", "#ddf", "#fdf", "#dfd"];
